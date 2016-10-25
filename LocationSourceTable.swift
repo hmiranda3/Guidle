@@ -37,6 +37,8 @@ class LocationSearchTable: UITableViewController, UISearchResultsUpdating {
     
     // MARK: Annotation Formatting
     
+    /***** This formats the address to a nice viewable format *****/
+    
     func parseAdress(selectedItem: MKPlacemark) -> String {
         let firstSpace = (selectedItem.subThoroughfare != nil && selectedItem.subThoroughfare != nil) ? " " : " "
         

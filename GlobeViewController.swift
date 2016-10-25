@@ -10,6 +10,7 @@ import UIKit
 import MapKit
 import CoreLocation
 import UserNotifications
+import FBSDKCoreKit
 
 protocol HandleMapSearch {
     func dropPinInZoom(placemark: MKPlacemark)
@@ -43,6 +44,7 @@ class GlobeViewController: UIViewController, MKMapViewDelegate, CLLocationManage
         setupMapView()
         setupAnnotationData()
         
+        
         let locationSearchTable = storyboard!.instantiateViewController(withIdentifier: "LocationSearchTable") as! LocationSearchTable
         resultSearchController = UISearchController(searchResultsController: locationSearchTable)
         resultSearchController?.searchResultsUpdater = locationSearchTable
@@ -69,6 +71,12 @@ class GlobeViewController: UIViewController, MKMapViewDelegate, CLLocationManage
         
         
         locationSearchTable.handleMapSearchDelegate = self
+        
+//        FBSDKLoginButton *loginButton = [[FBSDKLoginButton alloc] init];
+//        loginButton.center = self.view.center;
+//        [self.view addSubview:loginButton];
+        
+                
 
         
     }
