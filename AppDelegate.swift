@@ -10,6 +10,7 @@ import UIKit
 import CoreData
 import UserNotifications
 import FBSDKCoreKit
+import Firebase
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -31,6 +32,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
                 print("Request authorization succeeded!")
                 self.showAlert()
             }
+            
         }
         
         if let tabController = window?.rootViewController as? UITabBarController {
@@ -40,6 +42,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         FBSDKApplicationDelegate.sharedInstance().application(application, didFinishLaunchingWithOptions: launchOptions)
         
+        FIRApp.configure()
+
         return true
     }
     

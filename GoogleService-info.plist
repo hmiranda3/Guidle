@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AD_UNIT_ID_FOR_BANNER_TEST</key>
+	<string>ca-app-pub-3940256099942544/2934735716</string>
+	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
+	<string>ca-app-pub-3940256099942544/4411468910</string>
+	<key>CLIENT_ID</key>
+	<string>405764380533-5jgdt88lkb88ok0lai1b7mk7264slm0p.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.405764380533-5jgdt88lkb88ok0lai1b7mk7264slm0p</string>
+	<key>API_KEY</key>
+	<string>AIzaSyCBKpuxjGhK0PaQCl0uYWyeKbMAnKjSX-k</string>
+	<key>GCM_SENDER_ID</key>
+	<string>405764380533</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.habib.Guidle</string>
+	<key>PROJECT_ID</key>
+	<string>guidle-a9593</string>
+	<key>STORAGE_BUCKET</key>
+	<string>guidle-a9593.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<true/>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false/>
+	<key>IS_APPINVITE_ENABLED</key>
+	<false/>
+	<key>IS_GCM_ENABLED</key>
+	<true/>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true/>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:405764380533:ios:33f2ef00751ba92b</string>
+	<key>DATABASE_URL</key>
+	<string>https://guidle-a9593.firebaseio.com</string>
+</dict>
+</plist>
